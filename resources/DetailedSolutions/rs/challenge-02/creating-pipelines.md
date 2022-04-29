@@ -12,7 +12,7 @@ ms.locfileid: "140766034"
 
 ## <a name="01---create-the-pipeline-to-move-the-cloudsales-sql-database"></a>01 - CloudSales SQL データベースを移動するパイプラインを作成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline)を使用し、PowerShell を使ってパイプラインを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline)を使用し、PowerShell を使ってパイプラインを作成します。
 
 以下の構造の、`CloudSales-Pipeline.json` という名前の新しいファイルを作成します。
 
@@ -125,7 +125,7 @@ ms.locfileid: "140766034"
 
 > また、`parameters:items` については、このパイプラインは非常に重要な命令である `ForEach` を利用します。 **ForEach** は、特定の項目ごとに 1 つ以上のアクティブ化 (この場合は `Copy_Rows`) を繰り返すループ命令です。
 >
-> `ForEach` アクティビティの詳細については、[このリンク](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)をご覧ください。
+> `ForEach` アクティビティの詳細については、[このリンク](https://docs.microsoft.com/ja-jp/azure/data-factory/control-flow-for-each-activity)をご覧ください。
 
 ファイルを適切に調整したら、以下の PowerShell コマンドを実行して、Data Factory にパイプラインを作成します。
 
@@ -166,7 +166,7 @@ Set-AzDataFactoryV2Pipeline `
 
 ## <a name="03---create-the-pipeline-to-move-the-movies-cosmosdb-data"></a>03 - Movies CosmosDB データを移動するパイプラインを作成する
 
-[こちら](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline)で見つかるパイプラインを作成するためのリファレンスを使用して、CosmosDB コレクションからデータ レイクにデータをコピーする新しいパイプラインを作成します。
+[こちら](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline)で見つかるパイプラインを作成するためのリファレンスを使用して、CosmosDB コレクションからデータ レイクにデータをコピーする新しいパイプラインを作成します。
 
 まず、以下の構造の、`Movies-Pipeline.json` という名前の新しい JSON ファイルを作成します。
 
@@ -231,7 +231,7 @@ properties:activities:<copy task>:typeProperties:source:nestingSeparator
 
 これは `""` (空白) である必要があります。 それ以外の場合は、明示的に設定しないと、既定値のドット (`"."`) と見なされます。
 
-データを *そのまま* コピーするため、`nestingSeparator` が `"."` になっていると、このパイプラインでは機能しません。 詳しくは、[このドキュメント](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#import-or-export-json-documents)をご覧ください。
+データを *そのまま* コピーするため、`nestingSeparator` が `"."` になっていると、このパイプラインでは機能しません。 詳しくは、[このドキュメント](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-cosmos-db#import-or-export-json-documents)をご覧ください。
 
 > *アクティビティ作成を使用する場合は、Azure Cosmos DB データセットで構造 (スキーマとも呼ばれる) セクションを指定しないでください。また、コピー アクティビティでは、Azure Cosmos DB ソースまたはシンクで `nestingSeparator` プロパティを指定しないでください。JSON ファイルとの間でインポートまたはエクスポートを行う場合は、対応するファイル ストア データセットで、形式の種類を JsonFormat として指定し、JSON 形式セクションの説明に従って `filePattern` を構成します。その後、構造セクションを指定せず、残りの形式の設定をスキップします。*
 
@@ -254,4 +254,4 @@ Set-AzDataFactoryV2Pipeline `
 ## <a name="additional-resources"></a>その他の技術情報
 
 - Azure Data Factory を使用して Azure Cosmos DB (SQL API) との間でデータを双方向にコピーする
-    - [コピー アクティビティのプロパティ](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#copy-activity-properties)
+    - [コピー アクティビティのプロパティ](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-cosmos-db#copy-activity-properties)

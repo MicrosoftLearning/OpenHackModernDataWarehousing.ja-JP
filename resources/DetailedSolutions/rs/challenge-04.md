@@ -17,12 +17,12 @@ ms.locfileid: "140765885"
 目的は、コミットとプッシュがマスターに直接実行されるのを防ぐことです。
 これにより、未承認のコードが環境に将来自動的にデプロイされるのを防ぎます。 ここでの考え方は、安定したコードのために `master` ブランチをコードベースに変えるというものです。
 
-これを行うには、Microsoft ドキュメントとして使用できる非常に優れたガイドが[こちら](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)にがあります。
-具体的には、[この手順は](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops#require-a-minimum-number-of-reviewers)、だれかがマスターにコードを送信したい場合に少なくとも 1 人のレビュー担当者を持つのに役立ちます。
+これを行うには、Microsoft ドキュメントとして使用できる非常に優れたガイドが[こちら](https://docs.microsoft.com/ja-jp/azure/devops/repos/git/branch-policies?view=azure-devops)にがあります。
+具体的には、[この手順は](https://docs.microsoft.com/ja-jp/azure/devops/repos/git/branch-policies?view=azure-devops#require-a-minimum-number-of-reviewers)、だれかがマスターにコードを送信したい場合に少なくとも 1 人のレビュー担当者を持つのに役立ちます。
 
 ## <a name="creating-the-databricks-workspace"></a>Databricks ワークスペースの作成
 
-[このリファレンス](https://azure.microsoft.com/en-us/resources/templates/101-databricks-workspace/)を使用して、次のプロパティを持つ新しい Databricks ワークスペースを作成します。
+[このリファレンス](https://azure.microsoft.com/ja-jp/resources/templates/101-databricks-workspace/)を使用して、次のプロパティを持つ新しい Databricks ワークスペースを作成します。
 
 - `workspaceName`: ワークスペースの名前
 - `pricingTier`: このソリューションのスコープの場合は Standard
@@ -66,10 +66,10 @@ New-AzResourceGroupDeployment `
 
 参照:
 
-- [チュートリアル:Spark を使用して Azure Databricks で Data Lake Storage Gen2 のデータにアクセスする](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark)
-- [RBAC と Azure PowerShell を使用して Azure リソースへのアクセス権をユーザーに付与する](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell)
-- [Azure portal で RBAC を使用して Azure BLOB とキューのデータへのアクセスを付与する](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-portal#assign-rbac-roles-using-the-azure-portal)
-- [**PowerShell** を使用して RBAC で Azure BLOB とキューのデータへのアクセスを付与する](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-powershell#list-available-rbac-roles)
+- [チュートリアル:Spark を使用して Azure Databricks で Data Lake Storage Gen2 のデータにアクセスする](https://docs.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-use-databricks-spark)
+- [RBAC と Azure PowerShell を使用して Azure リソースへのアクセス権をユーザーに付与する](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-powershell)
+- [Azure portal で RBAC を使用して Azure BLOB とキューのデータへのアクセスを付与する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-auth-aad-rbac-portal#assign-rbac-roles-using-the-azure-portal)
+- [**PowerShell** を使用して RBAC で Azure BLOB とキューのデータへのアクセスを付与する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-auth-aad-rbac-powershell#list-available-rbac-roles)
 
 これは 1 つのコマンドで実行できます。
 

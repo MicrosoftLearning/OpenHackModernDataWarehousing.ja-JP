@@ -19,7 +19,7 @@ ms.locfileid: "140765916"
 
 CSV と SQL データベースの両方が *onprem* 仮想マシンでホストされます。これらの仮想マシンは、OpenHack の目的では、すべて Azure 仮想マシンです。
 
-Azure Data Factory を介してオンプレミス ソースからデータを抽出できるようにするには、[セルフホステッド Integration Runtime](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime) を活用する必要があります。
+Azure Data Factory を介してオンプレミス ソースからデータを抽出できるようにするには、[セルフホステッド Integration Runtime](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime) を活用する必要があります。
 
 > *統合ランタイム (IR) は、異なるネットワーク環境間でデータ統合機能を提供するために Azure Data Factory によって使用されるコンピューティング インフラストラクチャです。*
 
@@ -33,9 +33,9 @@ Azure Data Factory を介してオンプレミス ソースからデータを抽
     - [オンプレミス SQL Server のリンク サービス](challenge-03/creating-onprem-sql-server-linked-service.md)
 - データセットを作成する
     - [ファイル システム ソース用のデータセット](challenge-03/creating-file-system-dataset.md)
-        - このファイル システムのシンク データセットの場合、オンプレミスのマシンには、Parquet ファイルを生成するために必要な [要件](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)がない場合があるため、 **[バイナリ データセット](challenge-03/creating-sink-binary-dataset.md)** を作成してファイルを *そのまま* コピーできます。
+        - このファイル システムのシンク データセットの場合、オンプレミスのマシンには、Parquet ファイルを生成するために必要な [要件](https://docs.microsoft.com/ja-jp/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)がない場合があるため、 **[バイナリ データセット](challenge-03/creating-sink-binary-dataset.md)** を作成してファイルを *そのまま* コピーできます。
     - [オンプレミス SQL Server のデータセット](challenge-03/creating-onprem-sql-server-dataset.md)
-        - このオンプレミス SQL Server のシンク データセットには、Movies カタログをコピーするために作成した **JSON** シンク データセットを使用できます。 これは、オンプレミスのマシンに Parquet ファイルを生成するために必要な[要件]([requirements](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format))がない可能性があるためです。
+        - このオンプレミス SQL Server のシンク データセットには、Movies カタログをコピーするために作成した **JSON** シンク データセットを使用できます。 これは、オンプレミスのマシンに Parquet ファイルを生成するために必要な[要件]([requirements](https://docs.microsoft.com/ja-jp/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format))がない可能性があるためです。
 - パイプラインを作成する
     - [オンプレミス SQL Server のパイプライン](challenge-03/creating-onprem-sql-server-pipeline.md)
     - [ファイル システム ソース用のパイプライン](challenge-03/creating-file-system-pipeline.md)

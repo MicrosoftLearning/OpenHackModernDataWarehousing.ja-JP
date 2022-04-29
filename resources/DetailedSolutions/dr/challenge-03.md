@@ -20,7 +20,7 @@ ms.locfileid: "140765933"
 このプロセスは、Southridge Video の CloudStreaming データベースからデータを抽出するために実行された作業とほぼ同じです。
 主な違いは、SQL Server インスタンスが Azure SQL 内ではなく、"オンプレミス" (このラボの制約から、Azure 仮想マシン上) にあることです。
 
-Azure Data Factory では、[セルフホステッド統合ランタイム](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices)のインストールを通したオンプレミスのソースの抽出がサポートされています。
+Azure Data Factory では、[セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices)のインストールを通したオンプレミスのソースの抽出がサポートされています。
 
 まず、SQL Server データセットを追加します。
 
@@ -33,7 +33,7 @@ Azure Data Factory では、[セルフホステッド統合ランタイム](http
 プロンプトに従って、新しいセルフホステッド IR を作成します。
 これには、ランタイムのインストールと、そのインストールが完了した後の認証キーによる登録が含まれます。
 
-[Parquet 形式](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)を使用している場合は、IR マシンに 64 ビット JRE 8 (Java Runtime Environment) または OpenJDK をインストールすることも必要になります。
+[Parquet 形式](https://docs.microsoft.com/ja-jp/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)を使用している場合は、IR マシンに 64 ビット JRE 8 (Java Runtime Environment) または OpenJDK をインストールすることも必要になります。
 
 > 注: 運用環境シナリオでは、セルフホステッド IR をデータベース サーバー自体にインストールしないでください。
 それを行うと、セキュリティやパフォーマンスに影響を与えます。

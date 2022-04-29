@@ -49,7 +49,7 @@ AuthKey1    AuthKey2
 
 ## <a name="03---download-install-and-register-the-self-hosted-ir-on-the-virtual-machine"></a>03 - セルフホステッド IR を仮想マシンにダウンロードし、インストールして登録する
 
-IR を作成し、認証キーを取得したら、仮想マシンにインストーラーをダウンロードしてインストールを開始できます。 [このリンク](https://www.microsoft.com/en-us/download/details.aspx?id=39717)に従って、ダウンロード ページに移動します。
+IR を作成し、認証キーを取得したら、仮想マシンにインストーラーをダウンロードしてインストールを開始できます。 [このリンク](https://www.microsoft.com/ja-jp/download/details.aspx?id=39717)に従って、ダウンロード ページに移動します。
 
 適切にインストールすると、次のようなウィンドウが自動的に開きます。
 

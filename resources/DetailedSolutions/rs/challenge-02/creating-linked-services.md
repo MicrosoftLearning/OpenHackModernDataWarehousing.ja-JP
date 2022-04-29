@@ -10,7 +10,7 @@ ms.locfileid: "140765967"
 
 ## <a name="01---configure-linked-services-for-azure-sql-databases"></a>01 - Azure SQL データベース用のリンク サービスを構成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-sql-database#linked-service-properties)を利用して、Azure SQL をデータ ソースとして使用するための Data Factory リンク サービスを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-sql-database#linked-service-properties)を利用して、Azure SQL をデータ ソースとして使用するための Data Factory リンク サービスを作成します。
 
 以下の構造の、`CloudSales-LinkedService.json` という名前の新しい JSON ファイルを作成します。
 
@@ -77,7 +77,7 @@ Set-AzDataFactoryV2LinkedService `
 
 ## <a name="02---configure-a-linked-service-for-the-cosmos-db-as-a-source"></a>02 - Cosmos DB をソースとするためのリンク サービスを構成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#linked-service-properties)を利用して、Cosmos DB をデータ ソースとして使用するためのリンク サービスを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-cosmos-db#linked-service-properties)を利用して、Cosmos DB をデータ ソースとして使用するためのリンク サービスを作成します。
 
 まず、Azure から CosmosDB の完全な `connectionString` を取得する必要があります。
 これを行うには、次の Azure CLI コマンドを使用します。
@@ -165,7 +165,7 @@ Set-AzDataFactoryV2LinkedService `
 
 ## <a name="03---configure-a-linked-service-for-the-data-lake-as-a-sink"></a>03 - Data Lake をシンクとするためのリンク サービスを構成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#linked-service-properties)を利用して、前に作成した Data Lake をパイプラインのシンクとして使用するためのリンク サービスを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-data-lake-storage#linked-service-properties)を利用して、前に作成した Data Lake をパイプラインのシンクとして使用するためのリンク サービスを作成します。
 
 まず、Data Factory が ADLS Gen2 で読み取りと書き込みを実行できるようにするために、ストレージ アカウントのキーが必要になります。 これを行うには、以下のコマンドを使用して ADLS Gen2 の `accountKey` を取得します。
 

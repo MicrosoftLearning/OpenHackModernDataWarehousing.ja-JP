@@ -8,7 +8,7 @@ ms.locfileid: "140765957"
 ---
 # <a name="creating-a-dataset-for-file-system-sources"></a>ファイル システム ソース用のデータセットの作成
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-file-system#dataset-properties)を使用して、ファイル システム ソースのデータセットを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-file-system#dataset-properties)を使用して、ファイル システム ソースのデータセットを作成します。
 
 新しい JSON ファイルを作成し、次の構造体で `File-System-Dataset.json` という名前を付けます。
 

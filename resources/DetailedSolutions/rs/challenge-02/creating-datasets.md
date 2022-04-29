@@ -14,7 +14,7 @@ ms.locfileid: "140765939"
 
 > データセットの名前には、文字、数字、'_' のみを使用できます。
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-dataset)を使用して、次の構造を持つ `CloudSales-Dataset.json` という名前の新しい JSON ファイルを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell#create-a-dataset)を使用して、次の構造を持つ `CloudSales-Dataset.json` という名前の新しい JSON ファイルを作成します。
 
 ```json
 {
@@ -69,7 +69,7 @@ Set-AzDataFactoryV2Dataset `
 
 ## <a name="03---create-the-dataset-for-the-movies-catalog-on-cosmosdb"></a>03 - CosmosDB 上の Movies カタログのデータセットを作成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#dataset-properties)を使用して、Cosmos DB 上の Movies データベースのデータ形式を定義するためのデータセットを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-cosmos-db#dataset-properties)を使用して、Cosmos DB 上の Movies データベースのデータ形式を定義するためのデータセットを作成します。
 
 次の構造を持つ `Movies-Dataset.json` という名前の新しい JSON ファイルを作成します。
 
@@ -108,7 +108,7 @@ Set-AzDataFactoryV2Dataset `
 
 ## <a name="04---create-the-sink-dataset-for-azure-sql-database-tables"></a>04 - Azure SQL Database テーブルのシンク データセットを作成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式を Parquet ファイルのシンクとして記述するためのデータセットを作成します。 このデータセットは、Azure SQL Database テーブルをコピーするために使用されます。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式を Parquet ファイルのシンクとして記述するためのデータセットを作成します。 このデータセットは、Azure SQL Database テーブルをコピーするために使用されます。
 
 > Azure SQL からデータをコピーする Southridge の場合は、既にデータを Parquet としてコピーできるようになっているため、後で変換のために読み込むことが簡単になります。
 
@@ -170,7 +170,7 @@ Set-AzDataFactoryV2Dataset `
 
 ## <a name="05---create-the-sink-dataset-for-the-movies-catalog"></a>05 - Movies カタログのシンク データセットを作成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式を JSON ファイルのシンクとして記述するためのデータセットを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式を JSON ファイルのシンクとして記述するためのデータセットを作成します。
 
 次の構造を持つ `ADLS-Dataset-JSON.json` という名前の新しい JSON ファイルを作成します。
 

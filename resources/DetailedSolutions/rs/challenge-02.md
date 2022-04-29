@@ -35,7 +35,7 @@ Azure Data Factory は、データの保管、移動、および処理のサー�
 
 このチュートリアルでは、**PowerShell** を使用して Data Factory を作成します。
 
-詳細な手順については、[こちら](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell)を確認してください
+詳細な手順については、[こちら](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell)を確認してください
 
 > Windows 以外の OS を使用している場合は、Azure Cloud Shell を利用して次のコマンドを実行できます。
 
@@ -63,7 +63,7 @@ Data Lake Storage Gen2 が有効になっているストレージ アカウン�
 PowerShell を使用してこれを実現するには、次の手順に従います。
 
 このチュートリアルで作成するさまざまなリンク サービスの種類に対して、リンク サービス構成参照も必要になります。
-構成するソースまたはシンクがサポートされているかどうかを確認し、それらのサンプルを確認する場合に備えて、[データセットの種類](https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets-linked-services#dataset-type) のドキュメントを手元に用意しておいてください。
+構成するソースまたはシンクがサポートされているかどうかを確認し、それらのサンプルを確認する場合に備えて、[データセットの種類](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-datasets-linked-services#dataset-type) のドキュメントを手元に用意しておいてください。
 
 - [01 - リンク サービスの作成](challenge-02/creating-linked-services.md)
     - データセットを作成する前に、データ ソースとシンクに接続するためのリンク サービスが必要です。
@@ -84,17 +84,17 @@ PowerShell を使用してこれを実現するには、次の手順に従いま
 ### <a name="data-factory-creation"></a>Data Factory の作成
 
 - 見た限りでは、Azure CLI を使用した ADF の管理はサポートされていません。
-- [このリンク](https://docs.microsoft.com/en-us/azure/data-factory/#5-minute-quickstarts)の左側のメニューに、間違ったタイトルが表示されています
+- [このリンク](https://docs.microsoft.com/ja-jp/azure/data-factory/#5-minute-quickstarts)の左側のメニューに、間違ったタイトルが表示されています
     - _"データ ファクトリの作成"_ には、次の 2 つのみが必要です。
         - ユーザー インターフェイス (UI) または
         - Azure PowerShell
     - 他のユーザーは、 _"パイプラインの作成 - (サブジェクト)"_ のようになります
-- [このチュートリアル](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell) では、Azure Data Factory を作成する方法を説明するだけでなく、完全な **データ移動** のサンプルを作成します。 **Data Factory の作成** に関する明確なサンプルを用意することをお勧めします。
+- [このチュートリアル](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell) では、Azure Data Factory を作成する方法を説明するだけでなく、完全な **データ移動** のサンプルを作成します。 **Data Factory の作成** に関する明確なサンプルを用意することをお勧めします。
     - これは、このチュートリアルでは、最初にコピーされるデータを保持するストレージ アカウントを作成し、次に Data Factory の作成方法について説明するためです。 そのため、混乱する可能性があります。チュートリアルに従っているという理由だけでストレージ アカウントを作成する可能性がありますが、実際には必要ない場合があります。
 
 ### <a name="linked-services"></a>リンクされたサービス
 
-- [このチュートリアル](https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy)では、さまざまなリンク サービスの種類 (SQL DW の代わりに ADLS など) の他のサンプルを取得するためのユーザー向けのリファレンスを共有していません。
+- [このチュートリアル](https://docs.microsoft.com/ja-jp/azure/data-factory/tutorial-bulk-copy)では、さまざまなリンク サービスの種類 (SQL DW の代わりに ADLS など) の他のサンプルを取得するためのユーザー向けのリファレンスを共有していません。
 - 別のタブで実行すると、Azure Cloud Shell セッションの有効期限が短くなります。ユーザーがチュートリアル全体で名前の一貫性を維持するためにいくつかの変数を設定した場合に影響します。 これらの変数では、セッションが削除されると、値が緩やかになります。
 
 ### <a name="datasets"></a>データセット

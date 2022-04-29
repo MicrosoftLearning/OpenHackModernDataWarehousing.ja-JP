@@ -8,7 +8,7 @@ ms.locfileid: "140765912"
 ---
 # <a name="creating-the-on-premises-sql-server-linked-service-to-use-the-self-hosted-integration-runtime"></a>セルフホステッド統合ランタイムを使用するためのオンプレミスの SQL Server のリンク サービスの作成
 
-[このドキュメント](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#linked-service-properties)に基づいて作成した以前のリンク サービスとして、次の構造を持つ `SQL-Server-LinkedService.json` という名前のファイルを作成します。
+[このドキュメント](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-sql-server#linked-service-properties)に基づいて作成した以前のリンク サービスとして、次の構造を持つ `SQL-Server-LinkedService.json` という名前のファイルを作成します。
 
 ```json
 {

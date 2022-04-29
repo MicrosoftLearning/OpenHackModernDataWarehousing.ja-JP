@@ -12,12 +12,12 @@ ms.locfileid: "140765943"
 
 課題 1 から 3 の解決のために、次のツールをインストールする必要があります。
 
-- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
-- [Az PowerShell モジュール](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-1.7.0)
+- [Azure CLI](https://docs.microsoft.com/ja-jp/cli/azure/install-azure-cli?view=azure-cli-latest)
+- [Az PowerShell モジュール](https://docs.microsoft.com/ja-jp/powershell/azure/install-az-ps?view=azps-1.7.0)
 
 ## <a name="creating-adls-gen2"></a>ADLS Gen2 の作成
 
-[このガイド](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli)を使用して、Azure Data Lake Storage Gen2 でストレージ アカウントを作成します。
+[このガイド](https://docs.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli)を使用して、Azure Data Lake Storage Gen2 でストレージ アカウントを作成します。
 
 ```bash
 # Create variables to have consistency throughout the tutorial
@@ -45,6 +45,6 @@ az storage account create \
 
 ## <a name="potential-feedbacks"></a>考えられるフィードバック
 
-- [このチュートリアル](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli)には、 *"クイックスタート: Azure Data Lake Storage Gen2 ストレージ アカウントを作成する"* というタイトルが付いています。 ストレージ アカウントの **機能** における ADLS Gen2 をより具体的に表すには、それを次のようなタイトルにするように提案できます。
+- [このチュートリアル](https://docs.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli)には、 *"クイックスタート: Azure Data Lake Storage Gen2 ストレージ アカウントを作成する"* というタイトルが付いています。 ストレージ アカウントの **機能** における ADLS Gen2 をより具体的に表すには、それを次のようなタイトルにするように提案できます。
 
     > クイックスタート: Data Lake Storage Gen2 を有効にした状態で Azure Storage アカウントを作成する

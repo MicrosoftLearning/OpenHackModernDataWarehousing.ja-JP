@@ -10,9 +10,9 @@ ms.locfileid: "140765975"
 
 以下のリファレンスを使用します。
 
-- [パイプライン JSON リファレンス](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
-- [Azure Data Factory の ForEach アクティビティ](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)
-- [コピー アクティビティのプロパティ](https://docs.microsoft.com/en-us/azure/data-factory/connector-file-system#copy-activity-properties)
+- [パイプライン JSON リファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+- [Azure Data Factory の ForEach アクティビティ](https://docs.microsoft.com/ja-jp/azure/data-factory/control-flow-for-each-activity)
+- [コピー アクティビティのプロパティ](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-file-system#copy-activity-properties)
 
 オンプレミスのファイル システムから Azure Data Lake にデータをコピーする新しいパイプラインを作成します。
 

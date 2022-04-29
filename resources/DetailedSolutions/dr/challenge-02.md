@@ -9,14 +9,14 @@ ms.locfileid: "140765982"
 ## <a name="challenge-2-lights-camera-action"></a>課題 2: ライト、カメラ、アクション
 
 2 つ目の課題は、Azure SQL データベースと Cosmos DB コレクションから初期の Southridge データを抽出することです。
-この課題の目標は、データ移動ソリューションを使用してチームを稼働させることです。 推奨される解決方法は、[Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/) を使ってソース システムからデータ レイクにデータを **そのまま** コピーすることです。つまり、**最小限の変換、クレンジング、または処理** を行います。
+この課題の目標は、データ移動ソリューションを使用してチームを稼働させることです。 推奨される解決方法は、[Azure Data Factory](https://docs.microsoft.com/ja-jp/azure/data-factory/) を使ってソース システムからデータ レイクにデータを **そのまま** コピーすることです。つまり、**最小限の変換、クレンジング、または処理** を行います。
 
 > 注: この課題でも、エンタープライズ データ レイクにデータを一元化することの利点が既に確認でき始めています。
 この課題のデータはすべて Azure 内にありますが、Azure SQL のリレーショナル データと、Cosmos DB ドキュメント コレクションに JSON として格納されている非リレーショナル データが混在しています。
 
 ### <a name="creating-an-azure-data-factory"></a>Azure データ ファクトリの作成
 
-[製品ドキュメント](https://docs.microsoft.com/en-us/azure/data-factory/)の[クイックスタート](https://docs.microsoft.com/en-us/azure/data-factory/#5-minute-quickstarts)には、[Azure portal](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-data-factory) または [PowerShell](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-data-factory) を使用した Azure Data Factory リソースの作成に関する詳細がすべて記載されています。
+[製品ドキュメント](https://docs.microsoft.com/ja-jp/azure/data-factory/)の[クイックスタート](https://docs.microsoft.com/ja-jp/azure/data-factory/#5-minute-quickstarts)には、[Azure portal](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-portal#create-a-data-factory) または [PowerShell](https://docs.microsoft.com/ja-jp/azure/data-factory/quickstart-create-data-factory-powershell#create-a-data-factory) を使用した Azure Data Factory リソースの作成に関する詳細がすべて記載されています。
 
 > 注: 上でリンクされているクイックスタートには、データ ファクトリ内にパイプラインを作成するための追加情報が記載されています。 OpenHack ソリューションのこのセクションの範囲では、クイックスタートの「データ ファクトリの作成」セクションのみを参照してください。
 
@@ -149,7 +149,7 @@ Data Factory の作成エクスペリエンスから、新しいパイプライ�
 ![ADF 今すぐトリガー](./images/adf-trigger-now.png)
 
 ターゲットの場所にあるデータ レイクにデータが存在することを確認します。
-確認する方法の 1 つは、[Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) を使うことです。
+確認する方法の 1 つは、[Azure Storage Explorer](https://azure.microsoft.com/ja-jp/features/storage-explorer/) を使うことです。
 
 ![Azure Storage Explorer - ムービー](./images/storage-explorer-southridge-raw-movies.png)
 
@@ -263,7 +263,7 @@ CloudSales データベースに対して機能する JSON `items` コレクシ�
 ![ADF 今すぐトリガー](./images/adf-trigger-now.png)
 
 ターゲットの場所にあるデータ レイクにデータが存在することを確認します。
-確認する方法の 1 つは、[Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) を使うことです。
+確認する方法の 1 つは、[Azure Storage Explorer](https://azure.microsoft.com/ja-jp/features/storage-explorer/) を使うことです。
 
 ![データ レイクの CloudSales データの表示](./images/storage-explorer-southridge-raw-cloudsales.png)
 

@@ -8,9 +8,9 @@ ms.locfileid: "140765888"
 ---
 # <a name="creating-a-binary-dataset-for-sink"></a>シンク用のバイナリ データセットの作成
 
-ソースからファイルを *そのまま* コピーすることが必要な場合があります。 たとえば、CSV ファイルがあるオンプレミスのマシンがあって、[Parquet](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format) ファイルを生成するために必要な要件がないとします。 これらの CSV ファイルを *そのまま* コピーして、さらに処理を行うことができます。
+ソースからファイルを *そのまま* コピーすることが必要な場合があります。 たとえば、CSV ファイルがあるオンプレミスのマシンがあって、[Parquet](https://docs.microsoft.com/ja-jp/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format) ファイルを生成するために必要な要件がないとします。 これらの CSV ファイルを *そのまま* コピーして、さらに処理を行うことができます。
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式をシンクとして記述するためのデータセットを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-azure-data-lake-storage#dataset-properties)を使用して、Azure Data Lake Storage Gen2 のデータ形式をシンクとして記述するためのデータセットを作成します。
 
 次の構造を持つ `ADLS-Dataset-Binary.json` という名前の新しい JSON ファイルを作成します。
 

@@ -27,7 +27,7 @@ ms.locfileid: "140765947"
 
 ## <a name="quickstart"></a>クイックスタート
 
-1. PowerShell セッションの `$sqlpwd` 変数と `$vmpwd` 変数を **セキュリティで保護された文字列** として割り当てます。 どちらにも強力なパスワードを使用してください。 仮想マシンのパスワード要件については[このリンク](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm)に、SQL Server については[このリンク](https://docs.microsoft.com/en-us/sql/relational-databases/security/password-policy?view=sql-server-2017#password-complexity)に移動してください。
+1. PowerShell セッションの `$sqlpwd` 変数と `$vmpwd` 変数を **セキュリティで保護された文字列** として割り当てます。 どちらにも強力なパスワードを使用してください。 仮想マシンのパスワード要件については[このリンク](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm)に、SQL Server については[このリンク](https://docs.microsoft.com/ja-jp/sql/relational-databases/security/password-policy?view=sql-server-2017#password-complexity)に移動してください。
 
     ```powershell
     $sqlpwd = "0p3nH4ckD4t4!" | ConvertTo-SecureString -AsPlainText -Force
@@ -40,7 +40,7 @@ ms.locfileid: "140765947"
     $containerSAS = "TheContainerSASYouHave" | ConvertTo-SecureString -AsPlainText -Force
     ```
 
-1. [Az モジュール](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-1.8.0)がインストールされていることを確認します。
+1. [Az モジュール](https://docs.microsoft.com/ja-jp/powershell/azure/new-azureps-module-az?view=azps-1.8.0)がインストールされていることを確認します。
 
 1. OpenHack チームのサブスクリプションと関連する資格情報のリストを [Opsgility クラスルーム](https://aka.ms/ohadmin)からエクスポートします。 これを行うには、次の手順を実行します。  
     - クラスルームのラボ ビューにアクセスする  

@@ -80,7 +80,7 @@ def mountFileSystem(containerName, storageAccountName):
 > - 以下の 2 つのパラメーターを指定して、`mountFileSystem` 関数を宣言する。
 >     - `containerName`: ADLS Gen2 ストレージ上のファイル システムの名前
 >     - `storageAccountName`: ADLS Gen2 ストレージ アカウントの名前
-> - クラスターで実行中のノートブックを介して ADLS Gen2 ストレージにアクセスするためのパラメーターを定義する `configs` 変数を定義する。 この構成の詳細については、[このリンク](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark#create-a-file-system-and-mount-it)をご覧ください。
+> - クラスターで実行中のノートブックを介して ADLS Gen2 ストレージにアクセスするためのパラメーターを定義する `configs` 変数を定義する。 この構成の詳細については、[このリンク](https://docs.microsoft.com/ja-jp/azure/storage/blobs/data-lake-storage-use-databricks-spark#create-a-file-system-and-mount-it)をご覧ください。
 >     - 次のプレースホルダーに注目してください。
 >         - `<Service Principal Application ID>`
 >         - `<Service Principal Application Secret (or password)>`

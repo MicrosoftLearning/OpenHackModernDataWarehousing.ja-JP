@@ -8,7 +8,7 @@ ms.locfileid: "140765914"
 ---
 # <a name="creating-a-dataset-for-an-on-premises-sql-server-database"></a>オンプレミスの SQL Server データベースのデータセットを作成する
 
-[このリファレンス](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#dataset-properties)を利用して、以下の構造の `SQL-Server-Dataset.json` という名前の新しい JSON ファイルを作成します。
+[このリファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-sql-server#dataset-properties)を利用して、以下の構造の `SQL-Server-Dataset.json` という名前の新しい JSON ファイルを作成します。
 
 ```json
 {

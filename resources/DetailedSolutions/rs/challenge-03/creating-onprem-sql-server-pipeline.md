@@ -10,9 +10,9 @@ ms.locfileid: "140765891"
 
 以下のリファレンスを使用します。
 
-- [パイプライン JSON リファレンス](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
-- [Azure Data Factory の ForEach アクティビティ](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)
-- [SQL Server の Copy アクティビティのプロパティ](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#copy-activity-properties)
+- [パイプライン JSON リファレンス](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+- [Azure Data Factory の ForEach アクティビティ](https://docs.microsoft.com/ja-jp/azure/data-factory/control-flow-for-each-activity)
+- [SQL Server の Copy アクティビティのプロパティ](https://docs.microsoft.com/ja-jp/azure/data-factory/connector-sql-server#copy-activity-properties)
 
 オンプレミスの SQL Server データベースから Azure Data Lake にデータをコピーする新しいパイプラインを作成します。
 
@@ -136,7 +136,7 @@ ms.locfileid: "140765891"
 
 > また、`parameters:items` については、このパイプラインでは非常に重要な命令である `ForEach` が利用されます。 **ForEach** は、特定の項目ごとに 1 つ以上のアクティビティ (この場合は `Copy_Rows`) を繰り返すループ命令です。
 >
-> `ForEach` アクティビティの詳細については、[このリンク](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)をご覧ください。
+> `ForEach` アクティビティの詳細については、[このリンク](https://docs.microsoft.com/ja-jp/azure/data-factory/control-flow-for-each-activity)をご覧ください。
 
 ファイルを適切に調整したら、以下の PowerShell コマンドを実行して、Data Factory にパイプラインを作成します。
 
